@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
@@ -13,7 +14,6 @@
     "url": "git+https://github.com/ashneelbhagoban/env-and-branching.git"
   },
   "keywords": [],
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/ashneelbhagoban/env-and-branching/issues"
   },
@@ -22,5 +22,9 @@
     "@commitlint/cli": "^21.2.4",
     "@commitlint/config-conventional": "^21.2.4",
     "husky": "^9.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "mongoose": "^9.12.3"
   }
 }
